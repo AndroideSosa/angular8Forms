@@ -13,7 +13,9 @@ export class TemplateComponent implements OnInit {
     nombre: null,
     apellido: null,
     correo: null,
-    pais: ""
+    pais: "",
+    genero: null,
+    acepta: false
   }
 
   paises = [{
@@ -31,7 +33,7 @@ export class TemplateComponent implements OnInit {
   },{
     codigo: "ESP",
     pais: "España"
-  },
+  }
 ];
 
   constructor() { }

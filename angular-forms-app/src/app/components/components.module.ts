@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { DataComponent } from './data/data.component';
 import { TemplateComponent } from './template/template.component';
 
@@ -14,8 +14,8 @@ import { TemplateComponent } from './template/template.component';
   ],
   imports: [
     CommonModule,
-    FormsModule
-
+    FormsModule,
+    ReactiveFormsModule
   ]
 })
 export class ComponentsModule { }
